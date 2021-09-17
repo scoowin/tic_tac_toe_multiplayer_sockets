@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+#main-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: hsla(0, 0%, 0%, 0.7);
+}
+
+#login-div {
+    border-radius: 10px;
+    background-color: rgb(137, 238, 238);
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="/css/bootstrap.css" />
+        <link rel="stylesheet" href="/app/css/play_style.css" />
+        <script defer src="/js/jquery-3.3.1.js"></script>
+        <script defer src="/js/popper.js"></script>
+        <script defer src="/js/bootstrap.js"></script>
+        <script defer src="/socket.io/socket.io.js"></script>
+        <script defer src="/app/js/play_script.js"></script>
+    </head>
+    <body>
+        <div id="main-wrapper">
+            <nav class="navbar navbar-light bg-light">
+                <div>
+                    <h1 id="username" class="h4 m-2"></h1>
+                </div>
+                <div class="ml-auto">
+                    <h1 id="opponent" class="h4 m-2"></h1>
+                </div>
+            </nav>
+            <div id="game">
+                <div
+                    class="box"
+                    style="border-left: 0; border-top: 0"
+                    id="box1"
+                ></div>
+                <div class="box" style="border-top: 0" id="box2"></div>
+                <div
+                    class="box"
+                    style="border-top: 0; border-right: 0"
+                    id="box3"
+                ></div>
+                <div class="box" style="border-left: 0" id="box4"></div>
+                <div class="box" id="box5"></div>
+                <div class="box" style="border-right: 0" id="box6"></div>
+                <div
+                    class="box"
+                    style="border-left: 0; border-bottom: 0"
+                    id="box7"
+                ></div>
+                <div class="box" style="border-bottom: 0" id="box8"></div>
+                <div
+                    class="box"
+                    style="border-right: 0; border-bottom: 0"
+                    id="box9"
+                ></div>
+            </div>
+            <div class="col-12 text-center">
+                <button id="btnNewGame" class="btn btn-primary m-5">
+                    Find New Game
+                </button>
+            </div>
+            <div class="col-12 text-center">
+                <label for="move">select square</label>
+                <input type="number" id="move" min="1" max="9" value="1" />
+                <button id="btnMove" class="btn btn-primary">Move</button>
+            </div>
+            <div class="col-12 text-center">
+                <h1 id="searching" class="h4"></h1>
+            </div>
+        </div>
+    </body>
+</html>
