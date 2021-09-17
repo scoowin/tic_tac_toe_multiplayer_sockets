@@ -1,3 +1,4 @@
+//Check winning combinations
 function checkWin(board, letter) {
     if (board[0] == letter && board[0] == board[1] && board[0] == board[2]) {
         return 1;
