@@ -1,6 +1,6 @@
 # Multiplayer browser based tic_tac_toe
 
-This is a realtime multiplayer tic_tac_toe browser based game. It is name using nodejs environment using express for server and socket.io for websockets. \
+This is a realtime multiplayer tic_tac_toe browser based game. It is name using nodejs environment using express for server and socket.io for websockets. It uses bootstrap for styling and jQuery for scripting frontend. \
 
 ## How to run project
 
