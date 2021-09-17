@@ -4,7 +4,7 @@ This is a realtime multiplayer tic_tac_toe browser based game. It is name using 
 
 ## How to run project
 
-1. In **/src** directiory run command \
+1. In **root** directiory run command \
    `npm install` \
    to install required modules.
 2. Create **.env** file in /src directory with \
