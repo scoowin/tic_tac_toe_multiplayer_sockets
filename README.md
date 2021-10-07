@@ -7,7 +7,7 @@ This is a realtime multiplayer tic_tac_toe browser based game. It is name using 
 1. In **root** directiory run command \
    `npm install` \
    to install required modules.
-2. Create **.env** file in /src directory with \
+2. Create **.env** file in root directory with \
    `PORT={PORT_NUMBER_FOR_SERVER_TO_LISTEN_ON}`
 3. Run \
    `node server.js` \
